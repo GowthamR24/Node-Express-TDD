@@ -13,7 +13,7 @@ app.post('/name', (req,res) =>{
 })
 
 app.listen(port,()=>{
-    console.log(`Server Listening in Port ${port}`);
+    console.log(`Server Listening in Port ${port} `);
 })
 
 module.exports = app;
